@@ -1,0 +1,19 @@
+.container {
+    width: 50%;
+    background-color: aliceblue;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.container-h1 {
+    margin-left: 35%;
+}
+
+.container-button {
+    border-radius: 8px;
+    width: 10%;
+    background-color: sienna;
+    color: #fff;
+    border: none;
+    height: 30px;
+}
