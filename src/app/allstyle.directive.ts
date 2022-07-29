@@ -14,21 +14,13 @@ export class AllstyleDirective {
   @HostListener('mouseover') mouseover(eventData:Event) {
     this.el.nativeElement.style.color="red";
     this.el.nativeElement.style.backgroundColor="pink";
+    this.el.nativeElement.style.fontSize="25px";
   }
 
   //for mouseleave function
   @HostListener('mouseleave') mouseleave(eventData:Event) {
     this.el.nativeElement.style.color="white";
     this.el.nativeElement.style.backgroundColor="blue";
+    this.el.nativeElement.style.fontSize="16px";
   }
-
-  //for onclick function
-  @HostListener('click', ['$event'])
-  clickEvent(event:any) {
-    event.preventDefault();
-    event.stopPropagation();
-    this.el.nativeElement.style.marginLeft="45%";
-    console.log('Button Clicked!!!');
-  }
-
 }

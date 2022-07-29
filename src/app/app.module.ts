@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AllstyleDirective } from './allstyle.directive';
+import { ButtonstyleDirective } from './buttonstyle.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AllstyleDirective
+    AllstyleDirective,
+    ButtonstyleDirective
   ],
   imports: [
     BrowserModule,
